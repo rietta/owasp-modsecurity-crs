@@ -8,7 +8,8 @@
 # web server, and ClamAV
 
 
-$CLAMSCAN = "clamscan";
+#$CLAMSCAN = "clamscan";
+$CLAMSCAN = "clamdscan";
 
 if ($#ARGV != 0) {
     print "Usage: modsec-clamscan.pl <filename>\n";
